@@ -1,0 +1,191 @@
+.product-teaser .text-right {
+  text-align: right;
+}
+.product-teaser .product-top-content {
+  padding: 40px 0 29px;
+}
+.product-teaser .product-top-content span {
+  font-weight: bold 14px;
+  color: var(--rangitoto-2e2e22);
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+}
+
+.input-group>.form-control {
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 1%;
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+/* .product-teaser .product-top-content h3 {
+  font-weight: bold;
+  color: var(--rangitoto-2e2e22);
+   display: none;
+} */
+.product-teaser .product-top-content h4 {
+  font-weight: bold 14px;
+  color: var(--rangitoto-2e2e22);
+}
+.product-teaser .cards {
+  width: calc(25% - 20px) !important;
+  max-width: 251px;
+  margin-right: 28px;
+}
+.product-teaser .cards:last-child {
+  margin-right: 0;
+}
+.product-teaser .content-wrapper {
+  position: relative;
+}
+.product-teaser .text {
+  padding: 14px 0 20px 0;
+}
+.product-teaser .text h6 {
+  font-weight: bold;
+}
+.product-teaser .text p {
+  font-size: var(--font-size-12);
+  font-weight: bold;
+  line-height: 16px;
+  padding: 3px 0 0;
+}
+.product-teaser .text p.product-price {
+  line-height: 15px;
+  padding-top: 9px;
+}
+
+ 
+.product-teaser .text p.product-price .dis-price {
+  color: var(--cape-palliser-a67744);
+}
+.product-teaser .text p.product-price .dis-price ~ span {
+  text-decoration: line-through;
+}
+.product-teaser .text h6,
+.product-teaser .text p {
+  color: var(--rangitoto-2e2e22);
+}
+.product-teaser .btn-with-icon {
+  min-width: 100%;
+}
+.product-teaser .img-wrapper {
+  background-color: var(--white-ffffff);
+  height: 346px;
+  overflow: hidden;
+}
+.product-teaser .img-wrapper .hover-img {
+  height: 100%;
+}
+.product-teaser .img-wrapper .hover-img img {
+  object-fit: cover;
+}
+.product-teaser .img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-position: center bottom;
+  object-fit: none;
+}
+/* .product-teaser .img-wrapper:hover > img {
+  display: none;
+} */
+.product-teaser .cards:last-of-type .content-wrapper {
+  margin-right: 0;
+}
+.product-teaser .badge {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+  .product-teaser .img-wrapper {
+    height: 300px;
+  }
+  .product-teaser .cards {
+    margin-right: 25px;
+  }
+  /* .product-teaser .product-top-content h3 {
+    font-weight: bold;
+    color: var(--rangitoto-2e2e22);
+     display: none;
+  } */
+}
+
+@media screen and (max-width: 991px) {
+  .product-teaser .cards {
+    margin: 0 16px 23px 0;
+    width: calc(50% - 8px) !important;
+    max-width: none;
+  }
+  /* .product-teaser .img-wrapper {
+    height: 300px;
+  } */
+  .product-teaser .cards:nth-of-type(2n) {
+    margin-right: 0;
+    float: right !important;
+  }
+  .product-teaser .product-top-content span {
+    font-weight: bold;
+    color: var(--rangitoto-2e2e22);
+    display: none;
+  }
+  /* .product-teaser .product-top-content h3 {
+    font-weight: bold;
+    color: var(--rangitoto-2e2e22);
+     
+  } */
+  .product-teaser .product-top-content h4 {
+    font-weight: bold 14px;
+    color: var(--rangitoto-2e2e22);
+  }
+  /* .product-teaser .product-top-content h3 {
+    font-weight: bold 14px;
+    color: var(--rangitoto-2e2e22);
+  } */
+}
+
+@media screen and (max-width: 767px) {
+  .product-teaser .content-wrapper {
+    margin-top: 13px;
+  }
+  
+    /* display: none; */
+  
+  .product-teaser .img-wrapper {
+    height: 229px;
+  }
+  .product-teaser .img-wrapper img {
+    object-fit: contain;
+  }
+  .product-teaser.btn-width-increase .btn-with-icon:hover {
+    min-width: 104%;
+  }
+  .product-teaser.btn-width-increase .btn-with-icon span::before {
+    width: 0;
+    height: 0;
+  }
+  .product-teaser.btn-width-increase .btn-with-icon:hover span::before {
+    width: 13px;
+    height: 9px;
+  }
+  .product-teaser .product-top-content span {
+    font-weight: bold;
+    color: var(--rangitoto-2e2e22);
+  }
+  .product-teaser .product-top-content h4 {
+    font-weight: bold 14px;
+    color: var(--rangitoto-2e2e22);
+    display: none;
+  }
+}
